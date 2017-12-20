@@ -1021,6 +1021,28 @@ Prefab:
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4968288965651778, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968288965651778, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -6.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 61176863440209374, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179145583493398, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 61176863440209374, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8,
+        type: 2}
+      propertyPath: m_UsedByComposite
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 79f3c1d78907d4b4a9b7a77846a2fdc8, type: 2}
   m_IsPrefabParent: 0
@@ -1231,7 +1253,6 @@ GameObject:
   - component: {fileID: 1730109581}
   - component: {fileID: 1730109580}
   - component: {fileID: 1730109582}
-  - component: {fileID: 1730109583}
   - component: {fileID: 1730109584}
   m_Layer: 0
   m_Name: bird
@@ -1247,7 +1268,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1730109578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5974936, y: -0.4695425, z: -89.98608}
+  m_LocalPosition: {x: -2.5, y: -0.46, z: -89.9}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 734909660}
@@ -1332,17 +1353,6 @@ CircleCollider2D:
   m_Offset: {x: 0.0000019073486, y: 0.00000017881393}
   serializedVersion: 2
   m_Radius: 2.1
---- !u!114 &1730109583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1730109578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1301f872ea00f54b88eafd08f5d82af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1730109584
 MonoBehaviour:
   m_ObjectHideFlags: 0
