@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour {
     bool gameOver = true;
 
     public bool GameOver { get { return gameOver; } }
+    public int Score {  get { return score; } }
 
     void Awake()
     {
@@ -72,7 +73,7 @@ public class GameManager : MonoBehaviour {
     void OnPlayerScored()
     {
         score++;
-        scoreText.text = scoreText.ToString();
+        scoreText.text = score.ToString();
     }
 
     void SetPageState(PageState state)
